@@ -12,6 +12,7 @@
 		2D77C3832180D1DC0054E43A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D77C3812180D1DC0054E43A /* Main.storyboard */; };
 		2D77C3852180D1DD0054E43A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D77C3842180D1DD0054E43A /* Assets.xcassets */; };
 		2D77C3882180D1DD0054E43A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D77C3862180D1DD0054E43A /* LaunchScreen.storyboard */; };
+		2DA0DB58218241180092DF01 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA0DB57218241180092DF01 /* NavController.swift */; };
 		2DD5DAFE2180D49A001A8032 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5DAFD2180D49A001A8032 /* GoogleService-Info.plist */; };
 		2DD5DB062180D56E001A8032 /* UserScreens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5DB052180D56E001A8032 /* UserScreens.storyboard */; };
 		2DD5DB0B2180E390001A8032 /* Login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5DB092180E390001A8032 /* Login.jpg */; };
@@ -34,6 +35,7 @@
 		2D77C3842180D1DD0054E43A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D77C3872180D1DD0054E43A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D77C3892180D1DD0054E43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA0DB57218241180092DF01 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		2DD5DAFD2180D49A001A8032 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2DD5DB052180D56E001A8032 /* UserScreens.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserScreens.storyboard; sourceTree = "<group>"; };
 		2DD5DB092180E390001A8032 /* Login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Login.jpg; sourceTree = "<group>"; };
@@ -82,7 +84,6 @@
 				2DD5DB142180F29B001A8032 /* UI Elements */,
 				2DD5DB0D2180E3A7001A8032 /* Images */,
 				2DD5DB022180D4E2001A8032 /* View Controllers */,
-				2DD5DB002180D4C2001A8032 /* Firebase files */,
 				2DD5DAFF2180D4B4001A8032 /* Storyboards */,
 				2D77C3842180D1DD0054E43A /* Assets.xcassets */,
 				2D77C3892180D1DD0054E43A /* Info.plist */,
@@ -101,13 +102,6 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		2DD5DB002180D4C2001A8032 /* Firebase files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Firebase files";
-			sourceTree = "<group>";
-		};
 		2DD5DB022180D4E2001A8032 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +109,7 @@
 				2DD5DB0E2180E3E6001A8032 /* LoginScreen.swift */,
 				2DD5DB102180E3FE001A8032 /* RegisterUserScreen.swift */,
 				2DD5DB122180E410001A8032 /* UserScreen1.swift */,
+				2DA0DB57218241180092DF01 /* NavController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -303,6 +298,7 @@
 				2D3FE60921810C270067911E /* Create Line.swift in Sources */,
 				2DD5DB0F2180E3E6001A8032 /* LoginScreen.swift in Sources */,
 				2DD5DB1A21810269001A8032 /* UITextField.swift in Sources */,
+				2DA0DB58218241180092DF01 /* NavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
